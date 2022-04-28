@@ -14,8 +14,8 @@ public class MyList {
 
     }
 
-    public MyList(Long id, String listName, String contents) {
-        this.id = id;
+    public MyList(String listName, String contents) {
+
         this.listName = listName;
         this.contents = contents;
     }
