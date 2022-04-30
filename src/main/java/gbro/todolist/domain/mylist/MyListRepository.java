@@ -1,15 +1,14 @@
-package gbro.todolist.domain.list;
+package gbro.todolist.domain.mylist;
 
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 @Repository
-public class ListRepository {
+public class MyListRepository {
 
     private static final Map<Long, MyList> store = new ConcurrentHashMap<>();
     private static long sequence = 0L;

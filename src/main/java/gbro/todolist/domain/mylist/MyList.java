@@ -1,4 +1,4 @@
-package gbro.todolist.domain.list;
+package gbro.todolist.domain.mylist;
 
 
 import lombok.Data;
